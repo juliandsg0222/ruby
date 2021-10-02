@@ -11,7 +11,7 @@ The branch "chapters_one_to_three" contains the section 1 to 3 of the Udemy's co
 It includes a basic file showing a simple method and Ruby's own extension.
 
 
-### Chapter TWo
+### Chapter Two
 It includes files with three output methods:
 - puts
 - print
@@ -19,13 +19,13 @@ It includes files with three output methods:
 
 
 The basic arithmetics methods:
-- Addition
-- Subtraction
-- Multiplication
-- Concatentation
-- Division
-- Exponentiation
-- Module
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Concatentation (+)
+- Division (/)
+- Exponentiation (**)
+- Module (%)
 
 
 Later, there're examples of creating variables and constants.
@@ -47,3 +47,65 @@ Subsequently, the string interpolation, with the forms/methods to_s, to convert 
 Finally, the gets and chomp methods are used to capture typing data.
 - gets, captures the data including the line break.
 - chomp, removes the line break captured by gets.
+
+
+
+### Chapter Three
+It includes the operation of numbers and Booleans. It also contains useful methods for each data type.
+
+There are two types of numerical object:
+- Integer: Previously differentiated in Fixnum and Bignum p to ruby version 2.4
+- Float
+
+
+As for Boolean objects, they are divided into two types
+- TrueClass
+- FalseClass
+
+Both are Boolean but a subdifferentiation is performed.
+
+
+The chapter contains the following methods:
+- next
+- class
+- to_i
+- to_f
+- to_s
+- odd?
+- even?
+- between?
+- floor
+- ceil
+- round
+- abs
+
+
+Logical operators are also included:
+- Equality (==)
+- Inequality (!=)
+- Less than (<)
+- Greater than (>)
+- Less or equal to (<=)
+- Greater or equal to (>=)
+
+
+It continues with the different ways of expressing the arithmetic methods:
+- Addition (.+)
+- Subtraction (.-)
+- Multiplication (.*)
+- Division (./ and .div)
+- Module (.% and .modulo)
+
+
+Finally, it concludes with the blocks that can be worked with the following methods:
+- times
+- upto
+- downto
+- step
+
+
+
+#The main project description will soon be restructured to reflect the personal notes I have taken during the course.
+
+
+
