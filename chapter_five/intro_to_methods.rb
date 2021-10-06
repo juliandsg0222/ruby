@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def introduce_myself
   puts "I'm handsome"
   puts "I'm talented"

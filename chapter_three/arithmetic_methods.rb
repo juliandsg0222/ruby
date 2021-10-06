@@ -1,4 +1,6 @@
-p 1.next()
+# frozen_string_literal: true
+
+p 1.next
 puts
 
 p 1 + 2

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 a = 10
 p a
 
@@ -5,7 +7,6 @@ p a
 a += 5
 p a
 puts
-
 
 b = 100
 p b
@@ -15,14 +16,12 @@ b -= 50
 p b
 puts
 
-
 c = 3
 p c
 
-c*= 4
+c *= 4
 p c
 puts
-
 
 d = 8
 p d
@@ -32,8 +31,6 @@ d /= 4
 p d
 puts
 
-
-
 e = 7
 p e
 
@@ -41,8 +38,6 @@ p e
 e %= 2
 p e
 puts
-
-
 
 f = 6
 p f

@@ -1,13 +1,12 @@
+# frozen_string_literal: true
+
 number = 5000
 verified = true
 
-if number > 2500 || verified
-  puts "Huge number!"
-end
+puts 'Huge number!' if number > 2500 || verified
 puts
 
-
-puts "Huge number!" if number > 2500 || verified
+puts 'Huge number!' if number > 2500 || verified
 
 x = 8
 

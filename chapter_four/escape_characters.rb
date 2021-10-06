@@ -1,4 +1,6 @@
-puts "Hello world"
+# frozen_string_literal: true
+
+puts 'Hello world'
 puts 'Hello world'
 puts
 
@@ -6,7 +8,7 @@ puts "Juliet said 'Goodbye' to Romeo"
 puts 'Juliet said "Goodbye" to Romeo'
 puts
 
-puts "Juliet said \"Goodbye\" to Romeo"
+puts 'Juliet said "Goodbye" to Romeo'
 puts 'Juliet said \'Goodbye\' to Romeo'
 puts
 
@@ -16,4 +18,4 @@ p result
 puts
 
 puts "\tInsert a tab right here"
-puts "This is normal"
+puts 'This is normal'

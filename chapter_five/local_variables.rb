@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 expression = "I'm handsome"
 
 def introduce_myself

@@ -1,12 +1,15 @@
+# frozen_string_literal: true
+
 p 5 < 10
 
 p 10 > 12
 
-
 p true
 p false
 puts
-age = 25
+
+# The variable is omitted because it is not used
+# age = 25
 handsome = true
 stupid = false
 

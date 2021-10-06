@@ -1,4 +1,6 @@
-word = "hello"
+# frozen_string_literal: true
+
+word = 'hello'
 
 word.capitalize!
 p word

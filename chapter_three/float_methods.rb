@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 p 10.9.to_i
 p 10.9.to_i.class
 puts
@@ -17,5 +19,5 @@ puts
 p 3.14159.round(4)
 puts
 
-p -35.67.abs
+p(-35.67.abs)
 p 50.abs

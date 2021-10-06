@@ -1,25 +1,16 @@
+# frozen_string_literal: true
+
 num = 1000
 
-if num.respond_to?("next")
-  puts num.next
-end
+puts num.next if num.respond_to?('next')
 puts
 
-if num.respond_to?("length")
-  puts num.length
-end
+puts num.length if num.respond_to?('length')
 puts
 
-if num.respond_to?(:size)
-  puts num.size
-end
+puts num.size if num.respond_to?(:size)
 puts
 
-if "Hello".respond_to?(:odd?)
-  puts "Hello".odd?
-end
+puts 'Hello'.odd? if 'Hello'.respond_to?(:odd?)
 
-
-if num.respond_to?(:odd?)
-  puts num.odd?
-end
+puts num.odd? if num.respond_to?(:odd?)
