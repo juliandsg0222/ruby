@@ -5,7 +5,10 @@
 The primary branch is called "main".
 
 The branch "chapters_one_to_three" contains the section 1 to 3 of the Udemy's course.
+
 The branch "chapters_four_to_six" contains the section 4 to 6 of the Udemy's course.
+
+Rubocop is implemented using the apply-rubocop-up-to-chapter-six branch from chapter #1 to #6 of the Udemy's course. From chapter #7 onwards, it is implemented in the branch of each tern.
 
 
 ### Chapter One
