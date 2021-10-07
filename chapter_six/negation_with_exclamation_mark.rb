@@ -1,17 +1,18 @@
+# frozen_string_literal: true
 
-user = "free"
+user = 'free'
 
-if user != "suscriber"
-  puts "Only suscribers are allowed!"
-end
+puts 'Only suscribers are allowed!' if user != 'suscriber'
 puts
 
+# The use of double negation should be avoided.
+# The following is an example
+# p !!''
+# p !!3.14
+# p !!nil
 
-
-p !!""
-p !1
-p !!3.14
-
-p !false
-p !nil
-p !!nil
+# Avoid placing an object literal as a condition.
+# This is done as an example
+# p !1
+# p !false
+# p !nil

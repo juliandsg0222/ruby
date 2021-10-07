@@ -1,34 +1,21 @@
-if 5 < 7
-  puts "That math statement is true!"
-end
+# frozen_string_literal: true
+
+puts 'That math statement is true!' if 5 < 7
 puts
 
+password = 'blahblahblah'
 
-password = "blahblahblah"
-
-if password == "topsecret"
-  puts "Congrats, you've logged into our system!"
-end
+puts "Congrats, you've logged into our system!" if password == 'topsecret'
 puts
 
+word = 'kangaroo'
 
-word = "kangaroo"
-
-if word.length == 8
-  puts "That word has 8 letters!"
-end
+puts 'That word has 8 letters!' if word.length == 8
 puts
 
+other_word = 'zebra'
 
-other_word = "zebra"
-
-if other_word.include?("eb")
-  puts "Yup, your word has eb in it!"
-end
+puts 'Yup, your word has eb in it!' if other_word.include?('eb')
 puts
 
-
-
-if 5.odd?
-  puts "That number is odd!"
-end
+puts 'That number is odd!' if 5.odd?

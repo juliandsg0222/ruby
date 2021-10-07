@@ -1,3 +1,5 @@
-puts "Ruby".reverse
+# frozen_string_literal: true
 
-puts "ruby is fun".upcase.reverse.downcase
+puts 'Ruby'.reverse
+
+puts 'ruby is fun'.upcase.reverse.downcase

@@ -1,20 +1,22 @@
-grade = "C"
+# frozen_string_literal: true
 
-if grade == "A"
+grade = 'C'
+
+case grade
+when 'A'
   puts "That's an excellent grade. Good job!"
-elsif grade == "B"
+when 'B'
   puts "That's a good grade. Let's bring it up next time!"
 else
-  puts "Unacceptable!"
+  puts 'Unacceptable!'
 end
 puts
 
-
 def odd_or_even(number)
   if number.odd?
-    "That number is odd"
+    'That number is odd'
   else
-    "That number is even"
+    'That number is even'
   end
 end
 

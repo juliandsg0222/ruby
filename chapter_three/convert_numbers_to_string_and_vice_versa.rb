@@ -1,4 +1,6 @@
-str = "5"
+# frozen_string_literal: true
+
+str = '5'
 p str
 p str.class
 
@@ -26,7 +28,7 @@ p pi.to_s
 p pi.to_s.class
 puts
 
-p "5".to_s.class
+p '5'.to_s.class
 
 p 10.to_i.class
 

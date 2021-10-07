@@ -1,4 +1,6 @@
-story = "Once upon a time in a land far, far away..."
+# frozen_string_literal: true
+
+story = 'Once upon a time in a land far, far away...'
 p story.length
 puts
 

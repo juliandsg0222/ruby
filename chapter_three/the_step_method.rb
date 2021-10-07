@@ -1,4 +1,6 @@
-1.step(100, 5){ |number| puts number }
+# frozen_string_literal: true
+
+1.step(100, 5) { |number| puts number }
 puts
 
 0.step(85, 7) do |n|

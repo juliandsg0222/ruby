@@ -1,16 +1,16 @@
+# frozen_string_literal: true
 
-5.downto(1) { |i| puts "Countdown: #{i}"  }
+5.downto(1) { |i| puts "Countdown: #{i}" }
 puts
 
 5.downto(0) do |current_number|
   puts "We are currently on #{current_number}"
-  puts "Hooray!"
+  puts 'Hooray!'
   puts
 end
 
-puts "LIFTOFF!"
+puts 'LIFTOFF!'
 puts
-
 
 2.upto(12) do |num|
   puts "We're moving on up"

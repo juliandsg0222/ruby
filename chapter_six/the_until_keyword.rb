@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 i = 1
 
 while i < 10
@@ -5,7 +7,6 @@ while i < 10
   i += 1
 end
 puts
-
 
 i = 1
 

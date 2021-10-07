@@ -1,24 +1,26 @@
-thing = "rocket ship"
+# frozen_string_literal: true
+
+thing = 'rocket ship'
 p thing
 
-thing[0] = "p"
+thing[0] = 'p'
 p thing
 
-thing[1] = "a"
+thing[1] = 'a'
 p thing
 
-thing[9] = "o"
+thing[9] = 'o'
 p thing
 puts
 
-fact = "I love blueberry pie"
+fact = 'I love blueberry pie'
 p fact
 
-fact[7, 9] = "rasp"
+fact[7, 9] = 'rasp'
 p fact
 
-fact[7..10] = "blue"
+fact[7..10] = 'blue'
 p fact
 
-fact[2..5] = "absolutely adore"
+fact[2..5] = 'absolutely adore'
 p fact

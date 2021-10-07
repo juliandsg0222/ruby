@@ -1,32 +1,39 @@
-a = "Hello"
-b = "hello"
-c = "Hello"
+# frozen_string_literal: true
 
+a = 'Hello'
+b = 'hello'
+c = 'Hello'
+
+# Comparing two operands that are literally
+# the same is not appropriate. It is taken only as an
+# example that a object is equal to itself.
 p a == b
 p a == c
 p b == c
-p a == a
+# p a == a
 puts
 
 p a != b
 p a != c
 puts
 
-p "Apple" < "Banana"
-p "hello" < "help"
+p 'Apple' < 'Banana'
+p 'hello' < 'help'
 puts
 
-p "A" < "a"
-p "Z" < "a"
+p 'A' < 'a'
+p 'Z' < 'a'
 puts
 
-
-p "help" < "Banana"
+p 'help' < 'Banana'
 puts
 
-p "help" > "helP"
+p 'help' > 'helP'
 puts
 
-p true == true
+# Comparing two operands that are literally
+# the same is not appropriate. It is taken only as an
+# example that a object is equal to itself.
+# p true == true
 p true == false
-p false == false
+# p false == false
