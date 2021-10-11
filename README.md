@@ -10,6 +10,8 @@ The branch "chapters_four_to_six" contains the section 4 to 6 of the Udemy's cou
 
 Rubocop is implemented using the apply-rubocop-up-to-chapter-six branch from chapter #1 to #6 of the Udemy's course. From chapter #7 onwards, it is implemented in the branch of each tern.
 
+The branch "chapters-seven-to-nine" contains the section 7 to 9 of the Udemy's course.
+
 
 ### Chapter One
 It includes a basic file showing a simple method and Ruby's own extension.
