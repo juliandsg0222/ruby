@@ -14,6 +14,8 @@ The branch "chapters-seven-to-nine" contains the section 7 to 9 of the Udemy's c
 
 The branch "chapters-ten-to-twelve" contains the section 10 to 12 of the Udemy's course.
 
+The branch "chapters-thirteen-to-fifteen" contains the section 13 to 15 of the Udemy's course.
+
 
 ### Chapter One
 It includes a basic file showing a simple method and Ruby's own extension.
