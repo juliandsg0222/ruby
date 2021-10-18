@@ -18,5 +18,8 @@ The branch "chapters-thirteen-to-fifteen" contains the section 13 to 15 of the U
 
 The branch "chapters-sixteen-to-eighteen" contains the section 16 to 18 of the Udemy's course.
 
+The branch "chapters-nineteen-to-twenty-one" contains the section 19 to 21 of the Udemy's course.
+
+
 
 ### The main project description will soon be restructured to reflect the personal notes I have taken during the course.
